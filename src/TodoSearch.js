@@ -1,8 +1,11 @@
+import './TodoSearch.css'
+
 function TodoSearch() {
     return (
         <>
-            <input placeholder="Filtrar ToDo">
-            </input>
+            <div className='container-search'>
+                <input className='searchInput' placeholder="Filtrar ToDo"></input>
+            </div>
         </>
     );
 }

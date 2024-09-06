@@ -1,9 +1,15 @@
+import './TodoCounter.css'
+
 function TodoCounter({ total, completed }) {
     return (
         <>
-            <h1>
-                Has completado {completed} de {total} ToDos.
-            </h1>
+            <section className="todoCounter">
+                <div className='container'>
+                    <h1 className='.title'>
+                        Has completado <span className='titleReactive'>{completed}</span> de <span className='titleReactive'>{total}</span> ToDos.
+                    </h1>
+                </div>
+            </section>
         </>
     );
 }
